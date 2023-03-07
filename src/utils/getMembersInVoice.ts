@@ -6,7 +6,7 @@ export default (guild: Guild, members: string[]): string[] => {
 	for (const id of members) {
 		const member = guild.members.cache.get(id);
 
-		if (member.voice.channelId) {
+		if (member?.voice.channel) {
 			membersInVoice.push(id);
 		}
 	}
