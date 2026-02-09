@@ -1,7 +1,7 @@
 {
   "name": "giveaway-bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "old shit",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.ts"
